@@ -29,10 +29,10 @@
     background: #ebff05!important;
 }
 .bg-oscurito{
-    background: #0a192f!important;
+    background: #0d0d0d!important;
 }
 .bg-oscurito-no-important{
-    background: #0a192f;
+    background: #0d0d0d;
 }
 .btn-outline-amarillito{
     --bs-btn-color: #ebff05;
@@ -49,4 +49,15 @@
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #ebff05;
     --bs-gradient: none;
+}
+.text-gradient {
+    background: radial-gradient(circle at 70%,#ebff05 10%,#8529cd 30%);
+    background-size: 400% 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    animation: textGradientAnimation 5s ease-in-out infinite;
+    -webkit-animation: textGradientAnimation 5s ease-in-out infinite;
 }
