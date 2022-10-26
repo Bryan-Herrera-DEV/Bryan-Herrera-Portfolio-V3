@@ -28,23 +28,12 @@
 .bg-amarillito{
     background: #ebff05!important;
 }
-.btn-outline-primary {
-    --bs-btn-color: #8529cd;
-    --bs-btn-border-color: #8529cd;
-    --bs-btn-hover-color: #ffffff;
-    --bs-btn-hover-bg: #8529cd;
-    --bs-btn-hover-border-color: #8529cd;
-    --bs-btn-focus-shadow-rgb: 133,41,205;
-    --bs-btn-active-color: #ffffff;
-    --bs-btn-active-bg: #8529cd;
-    --bs-btn-active-border-color: #8529cd;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(12, 11, 13, 0.125);
-    --bs-btn-disabled-color: #8529cd;
-    --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #8529cd;
-    --bs-gradient: none;
+.bg-oscurito{
+    background: #0a192f!important;
 }
-
+.bg-oscurito-no-important{
+    background: #0a192f;
+}
 .btn-outline-amarillito{
     --bs-btn-color: #ebff05;
     --bs-btn-border-color: #ebff05;
