@@ -1,4 +1,4 @@
-var fetch_url = 'https://api.github.com/users/Bryan-Herrera-Dev/repos?per_page=100';
+var fetch_url = 'https://api.github.com/users/Bryan-Herrera-Dev/repos?per_page=10&sort=pushed&type=public';
 var project_sec = document.querySelector('#project_sec_ul');
 
 window.onload = function () {
